@@ -5,8 +5,8 @@ NBC ?= 0
 LIBNAME ?= gs
 BLAS ?= 0
 DEBUG ?= 0
-CFLAGS ?= -O2
-FFLAGS ?= -O2
+CFLAGS ?= -O2 -fPIC
+FFLAGS ?= -O2 -fPIC
 CPREFIX ?= gslib_
 FPREFIX ?= fgslib_
 
